@@ -1,0 +1,27 @@
+name: InfinityCompress
+author: acdeasdff
+description: Provided advanced InfinityExpansion Machines
+main: io.github.acdeasdff.infinityCompress.InfinityCompress
+website: 127.0.0.1
+depend: [Slimefun, InfinityExpansion]
+softdepend: [LiteXpansion, GlobalWarming, FNAmplifications]
+version: ${project.version}
+api-version: 1.16
+
+commands:
+  infinityCompress:
+    description: Use /infinityCompress help for a list of commands
+    usage: /infinityCompress <subcommand>
+    aliases: [iC,  infinityC]
+
+permissions:
+  infinityCompress.setdata:
+    description: Access to /infinityCompress setdata
+    default: op
+  infinityCompress.printitem:
+    description: Access to /infinityCompress printitem
+    default: op
+  infinityCompress.giverecipe:
+    description: Access to /infinityCompress giverecipe
+    default: op
+
