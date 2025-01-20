@@ -9,19 +9,19 @@ version: ${project.version}
 api-version: 1.16
 
 commands:
-  infinityCompress:
+  infinitycompress:
     description: Use /infinityCompress help for a list of commands
     usage: /infinityCompress <subcommand>
-    aliases: [iC,  infinityC]
+    aliases: [ic,  infinityc]
 
 permissions:
-  infinityCompress.setdata:
+  infinitycompress.setdata:
     description: Access to /infinityCompress setdata
     default: op
-  infinityCompress.printitem:
+  infinitycompress.printitem:
     description: Access to /infinityCompress printitem
     default: op
-  infinityCompress.giverecipe:
+  infinitycompress.giverecipe:
     description: Access to /infinityCompress giverecipe
     default: op
 
