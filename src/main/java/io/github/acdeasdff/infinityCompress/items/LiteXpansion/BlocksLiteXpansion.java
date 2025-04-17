@@ -1,17 +1,19 @@
 package io.github.acdeasdff.infinityCompress.items.LiteXpansion;
 
-import dev.j3fftw.litexpansion.Items;
+import static dev.j3fftw.litexpansion.Items.MASS_FABRICATOR_MACHINE;
+import static dev.j3fftw.litexpansion.Items.RECYCLER;
+import static dev.j3fftw.litexpansion.Items.UU_MATTER;
+import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_LITEXPANSION;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.acdeasdff.infinityCompress.InfinityCompress;
 import io.github.acdeasdff.infinityCompress.items.blocks.TweakedMaterialGenerator;
 import io.github.mooy1.infinityexpansion.items.materials.Singularity;
 import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
-import static dev.j3fftw.litexpansion.Items.*;
-import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_LITEXPANSION;
 
 public class BlocksLiteXpansion {
 

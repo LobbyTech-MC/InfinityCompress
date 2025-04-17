@@ -1,14 +1,16 @@
 package io.github.acdeasdff.infinityCompress.commands;
 
-import io.github.mooy1.infinitylib.commands.SubCommand;
+import java.util.List;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
-import java.util.List;
+import io.github.mooy1.infinitylib.commands.SubCommand;
 
 public final class PrintItem extends SubCommand {
 

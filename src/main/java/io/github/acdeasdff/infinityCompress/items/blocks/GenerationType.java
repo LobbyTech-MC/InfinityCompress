@@ -2,13 +2,12 @@ package io.github.acdeasdff.infinityCompress.items.blocks;
 
 import javax.annotation.Nonnull;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import org.bukkit.World;
 import org.bukkit.block.Block;
 
 import io.github.mooy1.infinityexpansion.utils.Util;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
 public enum GenerationType {

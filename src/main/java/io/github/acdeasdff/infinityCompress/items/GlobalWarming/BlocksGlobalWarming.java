@@ -1,24 +1,20 @@
 package io.github.acdeasdff.infinityCompress.items.GlobalWarming;
 
+import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_GLOBALWARMING;
+import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.CARBON;
+import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.CARBON_CHUNK;
+import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.COMPRESSED_CARBON;
+import static me.poma123.globalwarming.Items.AIR_COMPRESSOR;
+import static me.poma123.globalwarming.Items.EMPTY_CANISTER;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.acdeasdff.infinityCompress.InfinityCompress;
-import io.github.acdeasdff.infinityCompress.categories.Groups;
-import io.github.acdeasdff.infinityCompress.items.blocks.TweakedMaterialGenerator;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import me.poma123.globalwarming.GlobalWarmingPlugin;
-import org.bukkit.Bukkit;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
-import static io.github.acdeasdff.infinityCompress.InfinityCompress.globalwarming;
-import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_GLOBALWARMING;
-import static io.github.mooy1.infinityexpansion.items.materials.Materials.COPPER_SINGULARITY;
-import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.*;
-import static me.poma123.globalwarming.Items.AIR_COMPRESSOR;
-import static me.poma123.globalwarming.Items.EMPTY_CANISTER;
 
 public class BlocksGlobalWarming {
 

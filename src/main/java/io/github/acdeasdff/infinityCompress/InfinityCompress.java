@@ -1,5 +1,12 @@
 package io.github.acdeasdff.infinityCompress;
 
+import java.io.File;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.PluginDescriptionFile;
+import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPluginLoader;
+
 import io.github.acdeasdff.infinityCompress.categories.Groups;
 import io.github.acdeasdff.infinityCompress.commands.GiveRecipe;
 import io.github.acdeasdff.infinityCompress.commands.PrintItem;
@@ -9,23 +16,11 @@ import io.github.acdeasdff.infinityCompress.items.GlobalWarming.BlocksGlobalWarm
 import io.github.acdeasdff.infinityCompress.items.LiteXpansion.BlocksLiteXpansion;
 import io.github.acdeasdff.infinityCompress.items.blocks.Blocks;
 import io.github.acdeasdff.infinityCompress.items.blocks.Blocks2;
-import io.github.mooy1.infinitylib.InfinityLib;
 import io.github.mooy1.infinitylib.commands.AddonCommand;
-import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.mooy1.infinitylib.core.AddonConfig;
 import io.github.mooy1.infinitylib.core.Environment;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
-import me.poma123.globalwarming.GlobalWarmingPlugin;
-import org.bukkit.Bukkit;
-import org.bukkit.command.PluginCommand;
-import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.PluginDescriptionFile;
-import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.plugin.java.JavaPluginLoader;
-
-import java.io.File;
 
 public class InfinityCompress extends AbstractAddon {
 

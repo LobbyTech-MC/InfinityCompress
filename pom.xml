@@ -6,11 +6,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.acdeasdff</groupId>
     <artifactId>InfinityCompress</artifactId>
-    <version>1</version>
+    <version>1.0</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <FNAmplifications-systemPath>C:\Users\11877\Documents\GitHub\InfinityCompress/lib/FNAmplifications.jar</FNAmplifications-systemPath>
+        <LiteXpansion-systemPath>C:\Users\11877\Documents\GitHub\InfinityCompress/lib/LiteXpansion.jar</LiteXpansion-systemPath>
+        <GlobalWarming-systemPath>C:\Users\11877\Documents\GitHub\InfinityCompress/lib/GlobalWarming.jar</GlobalWarming-systemPath>
+        <InfinityExpansion-systemPath>C:\Users\11877\Documents\GitHub\InfinityCompress/lib/InfinityExpansion.jar</InfinityExpansion-systemPath>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -37,14 +41,14 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.github.SlimefunGuguProject</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>b39097e015</version>
+            <version>2024.3.1</version>
             <scope>provided</scope>
         </dependency>
 
@@ -74,7 +78,7 @@
             <artifactId>InfinityExpansion</artifactId>
             <version>14b651fce2</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/InfinityExpansion.jar</systemPath>
+            <systemPath>${InfinityExpansion-systemPath}</systemPath>
         </dependency>
 
         <dependency>
@@ -96,7 +100,7 @@
             <artifactId>GlobalWarming</artifactId>
             <version>UNOFFICIAL</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/GlobalWarming.jar</systemPath>
+            <systemPath>${GlobalWarming-systemPath}</systemPath>
         </dependency>
 
         <dependency>
@@ -104,7 +108,7 @@
             <artifactId>LiteXpansion</artifactId>
             <version>MODIFIED</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/LiteXpansion.jar</systemPath>
+            <systemPath>${LiteXpansion-systemPath}</systemPath>
         </dependency>
 
         <dependency>
@@ -112,13 +116,13 @@
             <artifactId>FNAmplifications</artifactId>
             <version>Unoffical-4.0.1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/FNAmplifications.jar</systemPath>
+            <systemPath>${FNAmplifications-systemPath}</systemPath>
         </dependency>
 
     </dependencies>
 
     <build>
-        <finalName>${project.name} v${project.version}</finalName>
+        <finalName>[sf]${project.name} v${project.version}</finalName>
         <defaultGoal>clean package</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 
@@ -150,7 +154,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.6.0</version>
                 <configuration>
                     <minimizeJar>true</minimizeJar>
                     <relocations>

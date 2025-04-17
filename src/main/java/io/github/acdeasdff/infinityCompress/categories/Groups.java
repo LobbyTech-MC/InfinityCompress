@@ -1,5 +1,7 @@
 package io.github.acdeasdff.infinityCompress.categories;
 
+import org.bukkit.Material;
+
 import io.github.acdeasdff.infinityCompress.InfinityCompress;
 import io.github.mooy1.infinitylib.groups.MultiGroup;
 import io.github.mooy1.infinitylib.groups.SubGroup;
@@ -7,7 +9,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
-import org.bukkit.Material;
 
 /**
  * Categories for this addon

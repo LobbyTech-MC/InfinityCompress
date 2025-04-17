@@ -1,5 +1,38 @@
 package io.github.acdeasdff.infinityCompress.items.blocks;
 
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.INFINITY_INFINITY_INFINITE_PANEL;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_CARBONADO_CAPACITOR;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_DIAMOND_PICKAXE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_ELECMOTOR;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_ENERGIZED_CAPACITOR;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_INFINITY_CIRCUIT;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_INFINITY_CORE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_INFINITY_INGOT;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_IRON_PICKAXE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_MACHINE_CIRCUIT;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_MACHINE_CORE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_MAGPLATE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_MEDIUM_CAPACITOR;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_NETHERITE_PICKAXE;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_OIL_PUMP;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_REDSTONE_SINGULARITY_ACTIVATED;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_REINFORCED_ALLOY;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_SMALL_REINFORCED_ALLOY;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_SMALL_TITANIUM;
+import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.ONE_PER_TICK_VOIDINGOT;
+import static io.github.mooy1.infinityexpansion.items.SlimefunExtension.VOID_CAPACITOR;
+import static io.github.mooy1.infinityexpansion.items.gear.Gear.PICKAXE;
+import static io.github.mooy1.infinityexpansion.items.materials.Materials.MACHINE_PLATE;
+import static io.github.mooy1.infinityexpansion.items.quarries.Quarries.ADVANCED_QUARRY;
+import static io.github.mooy1.infinityexpansion.items.quarries.Quarries.BASIC_QUARRY;
+import static io.github.mooy1.infinityexpansion.items.quarries.Quarries.INFINITY_QUARRY;
+import static io.github.mooy1.infinityexpansion.items.quarries.Quarries.VOID_QUARRY;
+import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.GEO_MINER;
+import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.REINFORCED_PLATE;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.acdeasdff.infinityCompress.InfinityCompress;
 import io.github.acdeasdff.infinityCompress.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
@@ -7,16 +40,6 @@ import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
-import static io.github.acdeasdff.infinityCompress.items.blocks.Blocks.*;
-import static io.github.mooy1.infinityexpansion.items.SlimefunExtension.VOID_CAPACITOR;
-import static io.github.mooy1.infinityexpansion.items.gear.Gear.PICKAXE;
-import static io.github.mooy1.infinityexpansion.items.materials.Materials.MACHINE_PLATE;
-import static io.github.mooy1.infinityexpansion.items.quarries.Quarries.*;
-import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.GEO_MINER;
-import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.REINFORCED_PLATE;
 
 public class Blocks2 {
 

@@ -1,12 +1,13 @@
 package io.github.acdeasdff.infinityCompress.items.FNFALsAmplifications;
 
-import io.github.acdeasdff.infinityCompress.InfinityCompress;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_FNAMP;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import static io.github.acdeasdff.infinityCompress.categories.Groups.INFINITY_FNAMP;
+import io.github.acdeasdff.infinityCompress.InfinityCompress;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 
 public class BlocksFN {
     public static final SlimefunItemStack AUTO_ASSEMBLING_STATION = new SlimefunItemStack(

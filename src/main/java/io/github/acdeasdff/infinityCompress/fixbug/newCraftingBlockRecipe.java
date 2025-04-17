@@ -1,15 +1,13 @@
 package io.github.acdeasdff.infinityCompress.fixbug;
 
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
-import lombok.Getter;
-
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemStackSnapshot;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import lombok.Getter;
 
 @Getter
 public final class newCraftingBlockRecipe {

@@ -1,12 +1,13 @@
 package io.github.acdeasdff.infinityCompress.items.blocks;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.acdeasdff.infinityCompress.AutoCrafter;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class AutoInfinityWorkbench extends AutoCrafter {
 

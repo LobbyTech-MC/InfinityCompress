@@ -1,11 +1,12 @@
 package io.github.acdeasdff.infinityCompress;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.MachineRecipeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemStackSnapshot;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 //from infinitylib
 public class CraftingBlockRecipe {

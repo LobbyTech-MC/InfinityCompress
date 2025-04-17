@@ -1,5 +1,7 @@
 package io.github.acdeasdff.infinityCompress.items.blocks;
 
+import static io.github.acdeasdff.infinityCompress.categories.Groups.MAIN_MATERIALS;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,14 +11,10 @@ import javax.annotation.Nullable;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.mooy1.infinityexpansion.InfinityExpansion;
-import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.machines.SingularityConstructor;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-
-import static io.github.acdeasdff.infinityCompress.categories.Groups.MAIN_MATERIALS;
 
 /**
  * Singularities and there recipe displays

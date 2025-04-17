@@ -3,10 +3,6 @@ package io.github.acdeasdff.infinityCompress.fixbug;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import io.github.mooy1.infinityexpansion.infinitylib.machines.MachineRecipeType;
-import io.github.mooy1.infinityexpansion.items.blocks.Blocks;
-import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
-import io.github.mooy1.infinitylib.machines.CraftingBlock;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -14,6 +10,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinityexpansion.categories.InfinityGroup;
+import io.github.mooy1.infinityexpansion.infinitylib.machines.MachineRecipeType;
+import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinitylib.machines.MachineLayout;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
