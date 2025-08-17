@@ -13,40 +13,40 @@ public class BlocksFN {
     public static final SlimefunItemStack AUTO_ASSEMBLING_STATION = new SlimefunItemStack(
             "INFCP_FN_AUTO_ASSEMBLING_STATION",
             Material.CRAFTING_TABLE,
-            "&d自动FN组装台",
-            "&7自动合成&bFN组装台&7配方",
+            "&d自动护生组装台",
+            "&7自动合成&b护生组装台&7配方",
             ""
     );
 
     public static final SlimefunItemStack AUTO_SCRAP_RECYCLER= new SlimefunItemStack(
             "INFCP_FN_AUTO_SCRAP_RECYCLER",
             Material.IRON_BLOCK,
-            "&d自动FN废料回收机",
-            "&7自动合成&bFN废料回收机&7配方",
+            "&d自动护生废料回收机",
+            "&7自动合成&b护生废料回收机&7配方",
             ""
     );
 
     public static final SlimefunItemStack AUTO_MAGIC_ALTAR= new SlimefunItemStack(
             "INFCP_FN_AUTO_MAGIC_ALTAR",
             Material.ENCHANTING_TABLE,
-            "&d自动FN魔法祭坛",
-            "&7自动合成&bFN魔法祭坛&7配方",
+            "&d自动护生魔法祭坛",
+            "&7自动合成&b护生魔法祭坛&7配方",
             ""
     );
 
     public static final SlimefunItemStack AUTO_GEM_ALTAR= new SlimefunItemStack(
             "INFCP_FN_AUTO_GEM_ALTAR",
             Material.ENCHANTING_TABLE,
-            "&d自动FN宝石祭坛",
-            "&7自动合成&bFN宝石祭坛&7配方",
+            "&d自动护生宝石祭坛",
+            "&7自动合成&b护生宝石祭坛&7配方",
             ""
     );
 
     public static final SlimefunItemStack AUTO_STICK_ALTAR= new SlimefunItemStack(
             "INFCP_FN_AUTO_STICK_ALTAR",
             Material.ENCHANTING_TABLE,
-            "&d自动FN魔棒祭坛",
-            "&7自动合成&bFN魔棒祭坛&7配方",
+            "&d自动护生魔棒祭坛",
+            "&7自动合成&b护生魔棒祭坛&7配方",
             ""
     );
     public static void setup(InfinityCompress plugin){

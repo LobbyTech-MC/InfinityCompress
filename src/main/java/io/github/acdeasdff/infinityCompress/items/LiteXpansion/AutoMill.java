@@ -11,6 +11,6 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 
 public class AutoMill extends Multiblock_Autocrafter {
     public AutoMill(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super(category, item, recipeType, recipe, "&7自动研磨机", Material.GRINDSTONE, "&7研磨机(LiteXpansion)", ManualMill.RECIPE_TYPE);
+        super(category, item, recipeType, recipe, "&7自动研磨机", Material.GRINDSTONE, "&7研磨机(纳米科技)", ManualMill.RECIPE_TYPE);
     }
 }

@@ -39,7 +39,7 @@ public final class Groups {
     public static final ItemGroup INFINITY_LITEXPANSION = new SubGroup("infinitycompress_infinity_litexpansion",
             new CustomItemStack(
                     PlayerHead.getItemStack(PlayerSkin.fromHashCode("3f87fc5cbb233743a82fb0fa51fe739487f29bcc01c9026621ecefad197f4fb1"))
-                    , "&b[无尽压缩]&aLiteXpansion"
+                    , "&b[无尽压缩]&a纳米科技"
                     ,"&7不参与无尽压缩其它产线合成")
     );
 
@@ -47,7 +47,7 @@ public final class Groups {
             new CustomItemStack(
                     PlayerHead.getItemStack(PlayerSkin.fromHashCode(
                             "115b670a704ba080a730acf246da64c413901644847edd671c3da9a97441ddc5"))
-                    , "&b[无尽压缩]&e&lFN &b&lAmpli&c&lfications"
+                    , "&b[无尽压缩]&e&l护 &b&l生&c&l科技"
                     ,"&7不参与无尽压缩其它产线合成")
     );
 

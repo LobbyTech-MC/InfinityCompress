@@ -11,6 +11,6 @@ import ne.fnfal113.fnamplifications.multiblocks.FnMysteryStickAltar;
 
 public class AutoStickAltar extends Multiblock_Autocrafter {
     public AutoStickAltar(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super(category, item, recipeType, recipe, "&d自动FN神秘棍棒组装机", Material.WHITE_STAINED_GLASS,"&dFN神秘棍棒", FnMysteryStickAltar.RECIPE_TYPE);
+        super(category, item, recipeType, recipe, "&d自动护生神秘棍棒组装机", Material.WHITE_STAINED_GLASS,"&d护生神秘棍棒", FnMysteryStickAltar.RECIPE_TYPE);
     }
 }

@@ -29,7 +29,7 @@ public class BlocksLiteXpansion {
             "INFCP_MASSFABRICATOR_SINGULARITY",
             Material.PURPLE_STAINED_GLASS,
             "&b质量生成机奇点(未完成)",
-            "&7从大量废料中产生UU物质(合成物品--不可直接使用)",
+            "&7从大量废料中产生纳米物质(合成物品--不可直接使用)",
             MachineLore.energyPerSecond(1666600),
             ""
     );
@@ -37,16 +37,16 @@ public class BlocksLiteXpansion {
     public static final SlimefunItemStack ONE_PER_TICK_UU_MATTER = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_UU_MATTER",
             Material.PURPLE_GLAZED_TERRACOTTA,
-            "&b质量生成机奇点(Tier1)",
-            "&7从大量废料中产生UU物质",
+            "&b质量生成机奇点(初级)",
+            "&7从大量废料中产生纳米物质",
             MachineLore.energyPerSecond(2066600),
             ""
     );
     public static final SlimefunItemStack ONE_PER_TICK_UU_MATTER_2 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_UU_MATTER_2",
             Material.PURPLE_GLAZED_TERRACOTTA,
-            "&b质量生成机奇点(Tier2)",
-            "&7从大量废料中产生UU物质",
+            "&b质量生成机奇点(中级)",
+            "&7从大量废料中产生纳米物质",
             MachineLore.energyPerSecond(16532800),
             ""
     );
@@ -54,8 +54,8 @@ public class BlocksLiteXpansion {
     public static final SlimefunItemStack ONE_PER_TICK_UU_MATTER_3 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_UU_MATTER_3",
             Material.PURPLE_GLAZED_TERRACOTTA,
-            "&b质量生成机奇点(Tier3)",
-            "&7从大量废料中产生UU物质",
+            "&b质量生成机奇点(高级)",
+            "&7从大量废料中产生纳米物质",
             MachineLore.energyPerSecond(132262400),
             ""
     );
@@ -64,7 +64,7 @@ public class BlocksLiteXpansion {
             "INFCP_AUTO_METAL_FORGE",
             Material.SMITHING_TABLE,
             "&b自动金属锻造台",
-            "&7自动合成金属锻造台(LiteXpansion)配方",
+            "&7自动合成金属锻造台(纳米科技)配方",
             ""
     );
 
@@ -72,7 +72,7 @@ public class BlocksLiteXpansion {
             "INFCP_AUTO_MILL",
             Material.GRINDSTONE,
             "&b自动研磨机",
-            "&7自动合成研磨机(LiteXpansion)配方",
+            "&7自动合成研磨机(纳米科技)配方",
             ""
     );
 
@@ -80,7 +80,7 @@ public class BlocksLiteXpansion {
             "INFCP_AUTO_SMELTRY",
             Material.BLAST_FURNACE,
             "&b自动冶炼炉",
-            "&7自动合成冶炼炉(LiteXpansion)配方",
+            "&7自动合成冶炼炉(纳米科技)配方",
             ""
     );
 

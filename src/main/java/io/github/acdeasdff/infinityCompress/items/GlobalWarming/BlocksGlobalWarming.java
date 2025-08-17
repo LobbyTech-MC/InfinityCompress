@@ -21,7 +21,7 @@ public class BlocksGlobalWarming {
     public static final SlimefunItemStack ONE_PER_TICK_COMPRESSOR_1 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_COMPRESSOR_1",
             Material.GLASS,
-            "&b空气压缩处理机(Tier1)(单刻)",
+            "&b空气压缩处理机(初级)(单刻)",
             "&7自动产出碳(20台)",
             "",
             MachineLore.speed(1),
@@ -30,7 +30,7 @@ public class BlocksGlobalWarming {
     public static final SlimefunItemStack ONE_PER_TICK_COMPRESSOR_2 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_COMPRESSOR_2",
             Material.GRAY_STAINED_GLASS,
-            "&b空气压缩处理机(Tier2)(单刻)",
+            "&b空气压缩处理机(中级)(单刻)",
             "&7自动产出碳(160台)",
             "",
             MachineLore.speed(8),
@@ -40,7 +40,7 @@ public class BlocksGlobalWarming {
     public static final SlimefunItemStack ONE_PER_TICK_COMPRESSOR_3 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_COMPRESSOR_3",
             Material.BLACK_CONCRETE,
-            "&b空气压缩处理机(Tier3)(单刻)",
+            "&b空气压缩处理机(高级)(单刻)",
             "&7自动产出碳",
             "&7有效对抗全球变暖(1280台)",
             "",
@@ -51,7 +51,7 @@ public class BlocksGlobalWarming {
     public static final SlimefunItemStack ONE_PER_TICK_COMPRESSOR_4 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_COMPRESSOR_4",
             Material.BLACK_GLAZED_TERRACOTTA,
-            "&b空气压缩处理机(Tier4)(单刻)",
+            "&b空气压缩处理机(终极)(单刻)",
             "&7自动产出压缩碳",
             "&7有效对抗全球变暖(5120台)",
             "",
@@ -62,7 +62,7 @@ public class BlocksGlobalWarming {
     public static final SlimefunItemStack ONE_PER_TICK_COMPRESSOR_5 = new SlimefunItemStack(
             "INFCP_ONE_PER_TICK_COMPRESSOR_5",
             Material.BLACK_STAINED_GLASS,
-            "&b空气压缩处理机(Tier5)(单刻)",
+            "&b空气压缩处理机(神极)(单刻)",
             "&7自动产出碳块",
             "&7有效对抗全球变暖(40960台)",
             "",

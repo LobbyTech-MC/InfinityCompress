@@ -11,6 +11,6 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 
 public class AutoSmeltry extends Multiblock_Autocrafter {
     public AutoSmeltry(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super(category, item, recipeType, recipe, "自动冶炼厂(LiteXpansion)", Material.BLAST_FURNACE, "冶炼厂(LiteXpansion)", RefinedSmeltery.RECIPE_TYPE);
+        super(category, item, recipeType, recipe, "自动冶炼厂(纳米科技)", Material.BLAST_FURNACE, "冶炼厂(纳米科技)", RefinedSmeltery.RECIPE_TYPE);
     }
 }

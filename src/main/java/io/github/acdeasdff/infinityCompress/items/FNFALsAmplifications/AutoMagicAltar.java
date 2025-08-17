@@ -11,6 +11,6 @@ import ne.fnfal113.fnamplifications.multiblocks.FnMagicAltar;
 
 public class AutoMagicAltar extends Multiblock_Autocrafter {
     public AutoMagicAltar(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super(category, item, recipeType, recipe, "&d自动FN魔法祭坛", Material.ENCHANTING_TABLE, "&dFN魔法祭坛", FnMagicAltar.RECIPE_TYPE);
+        super(category, item, recipeType, recipe, "&d自动护生魔法祭坛", Material.ENCHANTING_TABLE, "&d护生魔法祭坛", FnMagicAltar.RECIPE_TYPE);
     }
 }

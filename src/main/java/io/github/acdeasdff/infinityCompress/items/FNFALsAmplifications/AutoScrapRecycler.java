@@ -11,6 +11,6 @@ import ne.fnfal113.fnamplifications.multiblocks.FnScrapRecycler;
 
 public class AutoScrapRecycler extends Multiblock_Autocrafter {
     public AutoScrapRecycler(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super(category, item, recipeType, recipe, "&d自动FN废料回收机", Material.IRON_BLOCK, "&dFN废料回收机", FnScrapRecycler.RECIPE_TYPE);
+        super(category, item, recipeType, recipe, "&d自动护生废料回收机", Material.IRON_BLOCK, "&d护生废料回收机", FnScrapRecycler.RECIPE_TYPE);
     }
 }
