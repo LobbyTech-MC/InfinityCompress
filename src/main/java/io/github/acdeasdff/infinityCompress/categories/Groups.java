@@ -47,7 +47,7 @@ public final class Groups {
             new CustomItemStack(
                     PlayerHead.getItemStack(PlayerSkin.fromHashCode(
                             "115b670a704ba080a730acf246da64c413901644847edd671c3da9a97441ddc5"))
-                    , "&b[无尽压缩]&e&l护 &b&l生&c&l科技"
+                    , "&b[无尽压缩]&e&l护&b&l生&c&l科技"
                     ,"&7不参与无尽压缩其它产线合成")
     );
 
